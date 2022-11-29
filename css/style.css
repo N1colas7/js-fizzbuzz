@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+}
+
+.h1-title{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 5rem;
+    max-width: 950px;
+}
+
+.box{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-red{
+    background-color: red;
+}
+
+.box-orange{
+    background-color: orange;
+}
+
+.box-green{
+    background-color: green;
+}
+
+.box-blue{
+    background-color: blue;
+}
